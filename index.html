@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Project</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container-1">
+        <h2>First Game:Your Age in days</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button class='btn happy' onclick="ageInDays()">click me</button>
+            </div>
+            <div>
+                <button class='btn success' onclick="reset()">reset</button>
+            </div>
+        </div>
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+            
+        </div>
+    </div>
+    <div class="container-2">
+        <h2>Cat generator</h2>
+        <button class='btn danger' onclick="generateCat()">generate cat</button>
+        <button class='btn primary' onclick="removeCat()">remove cat</button>
+        <div class="fbc2" id="flex-box-container-2">
+
+
+        </div>
+
+    </div>
+    <div class="container-3">
+        <h2>Rock, Paper, Scissors</h2>
+        <div id="nomer">
+            <div><img id="rock" src="rock.jpg"  onclick="rpsGame(this)"></div>
+            <div><img id="paper" src="paper.jpg"  onclick="rpsGame(this)"></div>
+            <div><img id="scissors" src="scissors.jpeg"  onclick="rpsGame(this)"></div>
+        </div>
+
+    </div>
+    <div class="container-4">
+        <h2>Change Button's color</h2>
+        <div class="flexbox">
+            <form action="">
+                <select name="choicee" id="choicee" onchange="buttonColorChange(this)">
+                    <option value="nothing">choose</option>
+                    <option value="random">random</option>
+                    <option value="red">red</option>
+                    <option value="green">green</option>
+                    <option value="reset">reset</option>
+                </select>
+            </form>
+            <button class="btn primary">wee</button>
+            <button class="btn danger">Yahoo</button>
+            <button class="btn success">twitter</button>
+            <button class="btn happy">facebook</button>
+
+        </div>
+
+    </div>
+    <div class="container-5">
+        <h2>BlackJack</h2>
+        <h3><span id="black-jack-result">Let's play</span></h3>
+        <div id="flex-row-1">
+            <div id="your-box">
+                <h2>You:<span id="your-score">0</span></h2>
+            </div>
+            <div id="bot-box">
+                <h2>Dealer:<span id="bot-score">0</span></h2>
+            </div>
+        </div>
+        <div id="flex-row-2">
+            <div style="display: flex; justify-content: space-around;width: 50%;border:3px solid blue">
+            <button class="primaryy" id="btn-new-card">new card</button>
+            <button class="dangerr" id="btn-stop">Dealer</button>
+            <button class="happyy" id="btn-new-game" >new game</button>
+            </div>
+
+            
+        </div>
+        <div id="flex-row-3">
+            <table>
+                <tr><th>wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+                <tr><td><span id="winss">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="js.js"></script>
+    
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+.container-1, .container-2, .container-3, .container-4, .container-5  {
+    border:1px solid black;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+.flex-box-container-1, .flexbox, #flex-row-1, #flex-row-2, #flex-row-3 {
+     display: flex; 
+    border:1px solid black;
+    padding:10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.flex-box-container-1 div{
+    display: flex;
+    padding:10px;
+    align-items: center;
+}
+
+#flex-box-result {
+    border:1px solid black
+}
+
+#flex-box-container-2{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.fbc2 img{
+    margin: 18px;
+    box-shadow:0px 10px 50px black;
+}
+#nomer img {width: 158px; height: 158px;}
+#nomer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#nomer img:hover{
+    box-shadow:0px 10px 50px blue;
+}
+.primaryy{
+    background-color: green;
+}
+.dangerr{background-color: red;}
+.successs{
+    background-color: hotpink;
+}
+.happyy{
+    background-color: yellow;
+}
+.danger{
+    background-color: turquoise;
+}
+.happy{
+    background-color: turquoise;
+}
+.success{
+    background-color: turquoise;
+}
+.primary{
+    background-color: turquoise;
+}
+    
+#flex-row-1, #flex-row-2 {
+    background-color: teal;
+}
+
+#flex-row-1 div {
+    flex:1;
+}
+#flex-row-2 div{
+    padding: 5px;
+}
+#your-box, #bot-box{
+    border: 2px solid black;
+    padding: 10px;
+    height: 350px;
+    text-align: center;
+}
+
+table, th,td {
+    padding: 5px;
+    border: 1px solid black;
+}
+#your-box img,#bot-box img{
+    height: 85px;
+    width: 55px;
+    padding: 5px;
+}
+
+
+
